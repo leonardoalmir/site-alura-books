@@ -1,0 +1,38 @@
+.topicos_novidades {
+    background-color: var(--branco);
+    padding-top: 1em;
+}
+
+.card__topicos {
+    /* margin-top: 1em; */
+    background: var(--azul-degrade);
+}
+
+.topicos__titulo {
+    color: var(--branco);
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1.5em 0 2em 0;
+}
+
+.topicos__lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 1.5em;
+}
+
+.topicos__item {
+    margin: 1.5em 0.5em;
+}
+
+.topico__link {
+    background-color: var(--amarelo);
+    padding: 1em 1.5em;
+    color: var(--branco);
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
