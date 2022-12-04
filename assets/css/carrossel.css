@@ -15,7 +15,68 @@
 .swiper-button-next {
     display: none;
 }
+
 .swiper-pagination {
     position: initial;
     padding: 0.7em 0;
+}
+
+.card__descricao,
+.card__botoes,
+.botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.descricao {
+    margin-right: 0.5em
+}
+
+.card {
+    background: var(--branco);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+}
+
+.descricao__titulo {
+    color: var(--amarelo);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+}
+
+.descricao__titulo-livro {
+    color: var(--azul);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    margin: 0.5em 0;
+}
+
+.descricao__texto {
+    color: var(--preto);
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.card__botoes {
+    margin-top: 0.5em;
+    align-items: flex-end;
+}
+
+.botoes__item {
+    margin: 0 0.5em;
+}
+
+.botoes__ancora {
+    background-color: var(--amarelo);
+    color: var(--branco);
+    text-decoration: none;
+    padding: 1em 1.75em;
+}
+
+.descricao__imagem {
+    height: 100%;
 }
