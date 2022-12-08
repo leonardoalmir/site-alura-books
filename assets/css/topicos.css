@@ -36,3 +36,29 @@
     font-weight: 700;
     text-decoration: none;
 }
+
+@media screen and (min-width: 1024px) {
+    .topicos_novidades {
+        padding-top: 0em;
+    }
+
+    .topicos__titulo {
+        font-size: 24px;
+        padding: 1.5em 0 1.6em 0;
+    }
+
+    .card__topicos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .topico__link {
+        font-size: 24px;
+    }
+
+    .topicos__item {
+        margin: 2.5em 1em;
+    }
+}
