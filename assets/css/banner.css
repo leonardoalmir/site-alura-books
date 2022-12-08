@@ -32,3 +32,20 @@
     background-repeat: no-repeat;
     padding-left: 15px;
 }
+
+@media screen and (min-width: 1024px) {
+    .banner__titulo {
+        margin-top: 1.2em;
+        font-size: 36px;
+    }
+
+    .banner__pesquisa {
+        width: 50%;
+        margin: 0.5em 0 2.5em 0;
+        padding: 15px 0 15px 40px;
+    }
+
+    .banner__pesquisa::placeholder {
+        background-position: 5em;
+    }
+}
