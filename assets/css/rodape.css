@@ -34,6 +34,12 @@
         align-items: center;
         margin: 1em 0;
     }
+
+    .rodape__lista-link:hover {
+        color: var(--amarelo);
+        font-weight: 500;
+    }
+
     .lista__titulo {
         text-transform: uppercase;
         color: var(--cinza-titulo-lista-rodape);

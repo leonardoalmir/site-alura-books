@@ -56,6 +56,15 @@
 
     .topico__link {
         font-size: 24px;
+        -webkit-transition: 0.2s ease-in;
+        -moz-transition: 0.2s ease-in;
+        -o-transition: 0.2s ease-in;
+        transition: 0.2s ease-in;
+    }
+
+    .topico__link:hover {
+        color: var(--amarelo);
+        background-color: var(--branco);
     }
 
     .topicos__item {
